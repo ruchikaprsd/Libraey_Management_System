@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-hind-siliguri: "Hind Siliguri";
+
+  /* font sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-3xs: 0.625rem;
+  --font-size-sm: 0.875rem;
+  --font-size-4xs: 0.563rem;
+  --font-size-base: 1rem;
+  --font-size-13xl: 2rem;
+  --font-size-lg: 1.125rem;
+
+  /* Colors */
+  --primary-grey-6: #fff;
+  --color-gainsboro-100: #e6e6e6;
+  --gray-5: #e0e0e0;
+  --muted: #d9d9d9;
+  --color-black: #000;
+  --edf2f7: #edf2f7;
+  --color-darkslateblue-100: #5e59a6;
+  --color-darkslateblue: #393280;
+  --gray-6: #f2f2f2;
+  --gray-1: #333;
+  --gray-3: #828282;
+  --gray-2: #4f4f4f;
+  --gray-4: #bdbdbd;
+  --everbook-blue: #3c4cee;
+
+  /* Gaps */
+  --gap-3xs: 0.625rem;
+  --gap-31xl: 3.125rem;
+  --gap-xl: 1.25rem;
+  --gap-10xs: 0.188rem;
+
+  /* Paddings */
+  --padding-9xs: 0.25rem;
+  --padding-xl: 1.25rem;
+  --padding-3xs: 0.625rem;
+  --padding-10xs: 0.188rem;
+  --padding-30xl: 3.063rem;
+  --padding-5xl: 1.5rem;
+  --padding-13xl: 2rem;
+  --padding-mini: 0.938rem;
+  --padding-8xs: 0.313rem;
+  --padding-31xl: 3.125rem;
+  --padding-7xl: 1.625rem;
+  --padding-11xs-5: 0.094rem;
+
+  /* Border radiuses */
+  --br-26xl: 45px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+
+  /* Effects */
+  --drop-shadow: 0px 100px 105px rgba(0, 0, 0, 0.07),
+    0px 50px 52.55px rgba(0, 0, 0, 0.05), 0px 30.1px 31.65px rgba(0, 0, 0, 0.05),
+    0px 19.3px 20.29px rgba(0, 0, 0, 0.04),
+    0px 12.5px 13.15px rgba(0, 0, 0, 0.04), 0px 7.9px 8.28px rgba(0, 0, 0, 0.03),
+    0px 4.5px 4.76px rgba(0, 0, 0, 0.02), 0px 2px 2.09px rgba(0, 0, 0, 0.02);
+}

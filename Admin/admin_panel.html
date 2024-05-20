@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./assets/css/panel_style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Admin Dashboard Panel</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name ">
+            <div class="logo-image ">
+               <img src="images/logo.png" alt="">
+            </div>
+
+            <span style="color: white;" class="logo_name">Admin Panel</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#dash">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <div class="gap">
+                </div>
+                <hr>
+                <div class="gap1">
+                </div>
+                <li><a href="#bookmenagement">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Book Management</span>
+                </a></li>
+                <div class="gap">
+                </div>
+                <li><a href="#StudentManagement">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Student Management</span>
+                </a></li>
+                <div class="gap">
+                </div>
+                <li><a href="#AllotmentDetails">
+                    <i class="uil uil-book"></i>
+                    <span class="link-name">Allotment Details</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="admin_login.html">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard" id="dash">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle " ></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            <img src="./assets/images/admin.png" alt="">
+        </div>
+
+        <div class="dash-content ">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-books"></i>
+                        <span class="text">Total Books</span>
+                        <span class="number">130</span>
+                        <a href="#bookmenagement"class="viewmore">View More</a>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-user"></i>
+                        <span class="text">Total Student</span>
+                        <span class="number">500</span>
+                        <a href="#StudentManagement"class="viewmore">View More</a>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-share"></i>
+                        <span class="text">Book Issued</span>
+                        <span class="number">50</span>
+                        <a href="#AllotmentDetails"class="viewmore">View More</a>
+                    </div>
+                </div>
+            </div>
+<!----------------------- bookmenagement ------------------>
+            <div class="activity">
+                <div class="title" id="bookmenagement">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span class="text">Book Management</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Sr.</span>
+                        <span class="data-list">1</span>
+                        <span class="data-list">2</span>
+                        <span class="data-list">3</span>
+                        <span class="data-list">4</span>
+                        <span class="data-list">5</span>
+                        <span class="data-list">6</span>
+                        <span class="data-list">7</span>
+                    </div>
+                    <div class="data names">
+                        <span class="data-title">Book Name</span>
+                        <span class="data-list">Java</span>
+                        <span class="data-list">Spring</span>
+                        <span class="data-list">Html</span>
+                        <span class="data-list">CSS</span>
+                        <span class="data-list">JavaScript</span>
+                        <span class="data-list">Python</span>
+                        <span class="data-list">PHP</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Book ID</span>
+                        <span class="data-list">01</span>
+                        <span class="data-list">02</span>
+                        <span class="data-list">03</span>
+                        <span class="data-list">04</span>
+                        <span class="data-list">05</span>
+                        <span class="data-list">06</span>
+                        <span class="data-list">07</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Total Books</span>
+                        <span class="data-list">5</span>
+                        <span class="data-list">6</span>
+                        <span class="data-list">10</span>
+                        <span class="data-list">7</span>
+                        <span class="data-list">9</span>
+                        <span class="data-list">8</span>
+                        <span class="data-list">15</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Delete Book</span>
+                        <span class="data-list" ><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></i></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Update Book</span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                    </div>
+                </div>
+                <div class="gap1">
+                </div>
+                <div class="gap1">
+                </div>
+                <div class="boxes">
+                    <div class="box box1 boxi1"  style="background-color: white;">
+                        <span class="text"></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                    <div class="box box2" style="height: 60px; background-color: rgb(59, 91, 188);">
+                        <span class="text"><a href="#" style="color:rgb(247, 249, 247);">Add New Books</a></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                    <div class="box box3"style="background-color: white;" >
+                        <span class="text"></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+<hr>
+<!----------------- StudentManagement ---------------------->
+            <div class="activity">
+                <div class="title" id="StudentManagement">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span class="text">Students Management</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Sr.</span>
+                        <span class="data-list">1</span>
+                        <span class="data-list">2</span>
+                        <span class="data-list">3</span>
+                        <span class="data-list">4</span>
+                        <span class="data-list">5</span>
+                        <span class="data-list">6</span>
+                        <span class="data-list">7</span>
+                    </div>
+                    <div class="data names">
+                        <span class="data-title">Student Name</span>
+                        <span class="data-list">Suraj Rawat</span>
+                        <span class="data-list">Lakshya</span>
+                        <span class="data-list">Arpit</span>
+                        <span class="data-list">Vicky</span>
+                        <span class="data-list">Herendra</span>
+                        <span class="data-list">Aditya</span>
+                        <span class="data-list">Boby</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Student ID</span>
+                        <span class="data-list">01</span>
+                        <span class="data-list">02</span>
+                        <span class="data-list">03</span>
+                        <span class="data-list">04</span>
+                        <span class="data-list">05</span>
+                        <span class="data-list">06</span>
+                        <span class="data-list">07</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Gmail</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                        <span class="data-list">Demo@gmail.com</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Phone</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                        <span class="data-list">+911234567891</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Address</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                        <span class="data-list">123 street, main city, country</span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Pincode</span>
+                        <span class="data-list">452010</span>
+                        <span class="data-list">458116</span>
+                        <span class="data-list">452010</span>
+                        <span class="data-list">451020</span>
+                        <span class="data-list">456213</span>
+                        <span class="data-list">458962</span>
+                        <span class="data-list">452010</span>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box box1 boxi1"  style="background-color: white;">
+                        <span class="text"></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                    <div class="box box2" style="height: 60px; background-color:white;">
+                        <span class="text"><a href="#" style="color:rgb(247, 249, 247);"></a></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                    <div class="box box3"style="background-color: white;" >
+                        <span class="text"></span>
+                        <span class="number"></span>
+                        <a href="#"class="viewmore"></a>
+                    </div>
+                </div>
+                <hr>
+
+                <!-------------------- Allotment Details ----------------------->
+                <div class="activity">
+                    <div class="title" id="AllotmentDetails">
+                        <i class="fa-solid fa-list-check"></i>
+                        <span class="text">Allotment Details</span>
+                    </div>
+    
+                    <div class="activity-data">
+                        <div class="data names">
+                            <span class="data-title">Sr.</span>
+                            <span class="data-list">1</span>
+                            <span class="data-list">2</span>
+                            <span class="data-list">3</span>
+                            <span class="data-list">4</span>
+                            <span class="data-list">5</span>
+                            <span class="data-list">6</span>
+                            <span class="data-list">7</span>
+                        </div>
+                        <div class="data names">
+                            <span class="data-title">Student Name</span>
+                            <span class="data-list">Suraj Rawat</span>
+                            <span class="data-list">Lakshya</span>
+                            <span class="data-list">Arpit</span>
+                            <span class="data-list">Vicky</span>
+                            <span class="data-list">Herendra</span>
+                            <span class="data-list">Aditya</span>
+                            <span class="data-list">Boby</span>
+                        </div>
+                        <div class="data email">
+                            <span class="data-title">Student ID</span>
+                            <span class="data-list">01</span>
+                            <span class="data-list">02</span>
+                            <span class="data-list">03</span>
+                            <span class="data-list">04</span>
+                            <span class="data-list">05</span>
+                            <span class="data-list">06</span>
+                            <span class="data-list">07</span>
+                        </div>
+                        <div class="data names">
+                            <span class="data-title">Book Name</span>
+                            <span class="data-list">Java</span>
+                            <span class="data-list">Spring</span>
+                            <span class="data-list">Html</span>
+                            <span class="data-list">CSS</span>
+                            <span class="data-list">JavaScript</span>
+                            <span class="data-list">Python</span>
+                            <span class="data-list">PHP</span>
+                        </div>
+                        <div class="data email">
+                            <span class="data-title">Book ID</span>
+                            <span class="data-list">01</span>
+                            <span class="data-list">02</span>
+                            <span class="data-list">03</span>
+                            <span class="data-list">04</span>
+                            <span class="data-list">05</span>
+                            <span class="data-list">06</span>
+                            <span class="data-list">07</span>
+                        </div>
+                        <div class="data joined">
+                            <span class="data-title">Issued At</span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                        </div>
+                        <div class="data joined">
+                            <span class="data-title">Return Date</span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                            <span class="data-list"><input type="date"></span>
+                        </div>
+                        <div class="data joined">
+                            <span class="data-title">Fine</span>
+                            <span class="data-list">10</span>
+                            <span class="data-list">4</span>
+                            <span class="data-list">66</span>
+                            <span class="data-list">45</span>
+                            <span class="data-list">55</span>
+                            <span class="data-list">55</span>
+                            <span class="data-list">55</span>
+                        </div>
+                        <div class="data type">
+                            <span class="data-title">Delete</span>
+                            <span class="data-list" ><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></i></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                            <span class="data-list"><a href="" style="color: red;"><i class="fa-solid fa-trash"></i></a></span>
+                        </div>
+                        <div class="data status">
+                            <span class="data-title">Update</span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                            <span class="data-list"><a href="" style="color:green;"><i class="fa-regular fa-pen-to-square"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="gap1">
+                    </div>
+                    <div class="gap1">
+                    </div>
+                    <div class="boxes">
+                        <div class="box box1 boxi1"  style="background-color: white;">
+                            <span class="text"></span>
+                            <span class="number"></span>
+                            <a href="#"class="viewmore"></a>
+                        </div>
+                        <div class="box box2" style="height: 60px; background-color: white;">
+                            <span class="text"><a href="#" style="color:rgb(247, 249, 247);"></a></span>
+                            <span class="number"></span>
+                            <a href="#"class="viewmore"></a>
+                        </div>
+                        <div class="box box3"style="background-color: white;" >
+                            <span class="text"></span>
+                            <span class="number"></span>
+                            <a href="#"class="viewmore"></a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="gap1" style="height: 100px;">
+        </div>
+    </section>
+
+    <script>
+const body = document.querySelector("body"),
+      modeToggle = body.querySelector(".mode-toggle");
+      sidebar = body.querySelector("nav");
+      sidebarToggle = body.querySelector(".sidebar-toggle");
+
+
+
+let getStatus = localStorage.getItem("status");
+if(getStatus && getStatus ==="close"){
+    sidebar.classList.toggle("close");
+}
+
+
+sidebarToggle.addEventListener("click", () => {
+    sidebar.classList.toggle("close");
+    if(sidebar.classList.contains("close")){
+        localStorage.setItem("status", "close");
+    }else{
+        localStorage.setItem("status", "open");
+    }
+})
+    </script>
+    <script src="https://kit.fontawesome.com/ed24676f49.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.navbar {
+ 
+    background-color: #393280 !important;
+
+}
+.p-3 {
+  padding: 0rem !important;
+}
+.nav-text{
+  font-size: 20px;
+    color: white;
+    font-weight:400;
+}
+.nav-text:hover{
+  color: aquamarine;
+}
+.nav-option{
+    padding-left: 450px;
+}
+.navbar-brand{
+  font-size: 40px;
+    padding-left: 140px;
+}
+/* header end */
+
+/* underline hover effect */
+.hover-underline-animation {
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  float: top 5px;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: aquamarine;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* end of underline hover effect */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  background: white;
+  
+}
+
+.facebook-page {
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.facebook-page .text {
+  margin-left: -100px;
+  margin-bottom: 90px;
+}
+
+.facebook-page h1 {
+  color: #1877f2;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.facebook-page p {
+  font-size: 1.75rem;
+  white-space: nowrap;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 511px;
+  width: 100%;
+}
+.hero_content h1{
+    font-size: 5rem;
+    font-weight: bold;
+color: black;
+  }
+
+.hero h2{
+    font-size: 4rem;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #393280; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite; 
+    color: #393280;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color:  #393280;;
+    }
+  }
+
+
+@media (max-width: 900px) {
+  .nav-option{
+    padding-left: 0px;
+}
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    .navcontainer{
+        max-width: 1200px;
+        margin: 8px auto;
+        padding: 0px 0px 0px 100px;
+    }
+    .hero-image{
+        width: 108.5% !important;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 511px;
+        width: 100%;
+      }
+
+  .facebook-page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .facebook-page .text {
+   margin-left: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .facebook-page h1 {
+    font-size: 3.5rem;
+  }
+
+  .facebook-page p {
+    font-size: 1.3rem;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
